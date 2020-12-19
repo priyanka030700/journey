@@ -1,0 +1,311 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1416163119970-b823693d67e7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1382&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right , rgb(10, 8, 7, 0.75) , rgba(0, 0, 0, 0.63));
+}
+h4{ display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+    color: white;
+    position: absolute;
+    top: 50%;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+   transform: rotate(-90deg);
+}
+    h1{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 45px;
+        font-family: "Montserrat";
+        letter-spacing: 5px;
+        color: white;
+    }
+h1:hover{
+    font-size: 100px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+P{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #ececec;
+    opacity: .5;
+}
+#a{
+    position: absolute;
+    top: 42%;
+    left: 50;
+    transform: translate(-50%,-50%);
+    letter-spacing: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+
+p:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 45px;
+    color: white;
+
+}
+
+#nav1:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+#nav2:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+ h5{
+    font-family: "Montserrat";
+}
+
+h5:hover{
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: "Montserrat";
+}
+
+#navblurdiv{
+    width: 55%;
+    height: 8%;
+    background-color:rgba(0, 0, 0, 0.752);;
+    opacity: .32;
+    position: absolute;
+    top: 0%;
+    margin-right: 1%;
+}
+
+#icons i{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    color: white;
+}
+
+#icons #ione{
+    position: absolute;
+    top: 55%;
+    left: 1%;
+}
+
+#icons #ione:hover{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+#icons #ttwo{
+    position: absolute;
+    top: 60%;
+    left: 1%;
+}
+
+#icons #itwo:hover{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+#icons #tthree{
+    position: absolute;
+    top: 60%;
+    left: 1%;
+}
+#icons #tthree:hover{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+#icons2 #oone{
+    position: absolute;
+     top: 97%;
+     left: 1.4%;
+     color: white;
+}
+
+
+
+ h6 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: "Montserrat";
+     color: white;
+     position: absolute;
+     top: 90%;
+     margin-bottom: 18px;
+     letter-spacing: 1px;
+    transform: rotate(-90deg);
+ }
+
+ #icons2 i:hover{
+     font-size: 26px;
+     cursor: pointer;
+ }
+
+ #icons2 h6:hover{
+    cursor: pointer;
+}
+
+#blurdiv1{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 10%;
+    background-color:rgba(0, 0, 0, 0.952);;
+    opacity: .32;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+
+}
+
+#blurdiv1:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+#blurdiv2{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 10%;
+    background-color:rgba(0, 0, 0, 0.937);
+    opacity: .32;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+#blurdiv2:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+#blurdiv3{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 10%;
+    background-color:rgba(0, 0, 0, 0.952);
+    opacity: .32;
+    position: absolute;
+    top: 80%;
+    left: 65%;
+}
+
+#blurdiv3:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+#blurdiv1 h3 {
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat";
+    margin-left: 60px;
+    letter-spacing: 2px;
+
+}
+
+
+#blurdiv2 h3 {
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat";
+    margin-left: 60px;
+    letter-spacing: 2px;
+}
+
+#blurdiv3 h3 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: "Montserrat";
+    margin-left: 60px;
+    letter-spacing: 2px;
+}
+
+#blurdiv a{
+    color: white;
+    margin-left: 55px;
+}
+
+#blurdiv i{
+    color: white;
+    margin-left: 30px;
+
+}
+
+
+h4{
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 350;
+    position: absolute;
+    top: 94%;
+    right: 3%;
+}
+
+span{
+    font-size: 32px;
+} 
+
+
